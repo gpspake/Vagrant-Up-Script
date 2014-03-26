@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'cd to opt dir'
 cd /opt
 echo 'wget node.js'
@@ -12,6 +13,10 @@ echo 'make'
 sudo make
 echo 'install'
 sudo make install
+echo 'cd home'
+cd
+echo 'remove node source'
+rm -rf /opt/node*
 echo 'adding /usr/local/bin to path'
 export PATH=$PATH:/usr/local/bin
 echo 'node version'
