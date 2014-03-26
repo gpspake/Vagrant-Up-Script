@@ -1,9 +1,9 @@
 echo 'cd to opt dir'
 cd /opt
 echo 'wget node.js'
-#sudo wget http://nodejs.org/dist/node-latest.tar.gz
-#echo 'extract'
-#sudo tar -xzvf node-latest.tar.gz
+sudo wget http://nodejs.org/dist/node-latest.tar.gz
+echo 'extract'
+sudo tar -xzvf node-latest.tar.gz
 echo 'cd in to node dir'
 cd node-v*
 echo 'configure'
